@@ -1,0 +1,24 @@
+.header {
+    background: antiquewhite;
+    padding: 16px;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+tr:nth-child(3n) {
+    background-color: burlywood
+}
+
+tr:nth-child(3n+1) {
+    background-color: lightgoldenrodyellow
+}
+
+tr:nth-child(3n+2) {
+    background-color: lightgrey
+}

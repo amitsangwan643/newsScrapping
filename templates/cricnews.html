@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket News</title>
+    <link rel="stylesheet" href="/static/news.css">
+</head>
+
+<body>
+    <div class="header">Cricket News</div>
+    <table>
+        <tr>
+            <th width="25%">News Title</th>
+            <th>Heading</th>
+            <th>News-Link</th>
+        </tr>
+        {% for value in headlines %}
+        <tr>
+            <td>{{value["Title"]}}</td>
+            <td>{{value["Headline"]}}</td>
+            <td><a href={{ value[ "Link"]}} target="_blank">{{value["Link"]}}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>

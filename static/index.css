@@ -1,0 +1,22 @@
+body {
+    background: rgb(181, 108, 190);
+}
+
+.lb-main {
+    color: rgb(115, 35, 190);
+}
+
+form {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+input {
+    font-size: 18px;
+    background: lemonchiffon;
+}
+
+select {
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllNews</title>
+    <link rel="stylesheet" href="/static/news.css">
+</head>
+
+<body>
+    <div class="header">All News</div>
+    <table class="tb-main">
+        <tr>
+            <th width="95cm">Headings No.</th>
+            <th>Heading</th>
+            <th>News-Link</th>
+        </tr>
+        {% for value in headlines %}
+        <tr>
+            <td>{{value["newsNo"]}}</td>
+            <td>{{value["newsheading"]}}</td>
+            <td><a href={{ value[ "newslink"]}} target="_blank">{{value["newslink"]}}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
