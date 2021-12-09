@@ -1,6 +1,8 @@
 "# NewsScrapper" 
 
-In this project , News are Scrapped from 3 different websites and displayed on our own designed html page.
+In this Scrapping Project, we are scrapping news using python. The Language and Liberaries used in this project are :
+Python      Flask     Beautiful Soup    and     HTML and CSS    
+News are Scrapped from 3 different websites and displayed on our own designed html page.
 
 The three websites used for scrapping news are :
 
